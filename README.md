@@ -44,34 +44,34 @@ Test your reflexes by clicking the highlighted squares before time runs out!
 
 ## 🚀 Installation
 
-1. Clone the repository:
+# 1. Clone the repository:
 
 ```
 bash
 git clone https://github.com/YOUR_USERNAME/react-mini-game.git
 ```
 
-2. Install dependencies:
+# 2. Install dependencies:
 
 cd react-mini-game
 npm install
 
-# or
+or
 
 yarn
 
-3. Run the development server:
+# 3. Run the development server:
 
 npm run dev
 
-# or
+or
 
 yarn dev
 
-4. Open http://localhost:5173
+# 4. Open http://localhost:5173
    in your browser.
 
-Project Structure
+## Project Structure
 
 ```
 src/
@@ -89,7 +89,7 @@ src/
 └── App.tsx # Main application
 ```
 
-✅ Usage
+## ✅ Usage
 
 Enter a time limit (ms) between 500 and 5000.
 
@@ -101,7 +101,10 @@ The first to 10 points wins.
 
 Modal shows who won the game.
 
-🎯 Notes
+## 🎯 Notes
+
 The game prevents invalid actions: clicking inactive cells or starting while already running.
+
 Input validation ensures the time limit stays within range, and the Start button is disabled otherwise.
+
 Game logic uses guards and timeouts to prevent race conditions or inconsistent states.
