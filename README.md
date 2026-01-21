@@ -73,6 +73,7 @@ yarn dev
 
 Project Structure
 
+```
 src/
 ├── components/
 │ ├── GameGrid.tsx # 10x10 grid component
@@ -86,13 +87,18 @@ src/
 ├── utils/
 │ └── randomCell.ts # Helper for random cell selection
 └── App.tsx # Main application
+```
 
 ✅ Usage
 
 Enter a time limit (ms) between 500 and 5000.
+
 Click Start.
+
 Click the yellow square before time runs out.
+
 The first to 10 points wins.
+
 Modal shows who won the game.
 
 🎯 Notes
