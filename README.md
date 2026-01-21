@@ -38,7 +38,7 @@ Test your reflexes by clicking the highlighted squares before time runs out!
 - Material-UI (MUI v6)
 - Zustand (state management)
 - HTML5 / CSS3
-- Vite (optional) or Create React App
+- Vite
 
 ---
 
